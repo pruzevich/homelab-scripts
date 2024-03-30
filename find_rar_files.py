@@ -18,7 +18,7 @@ def find_rar_files(parent_folder):
     return folders_with_rar
 
 # Usage example
-parent_folder_path = 'Z:\movies'  # Replace this with the path to your parent folder
+parent_folder_path = 'Z:\movies'  # Replace with path to folder of choice
 rar_folders = find_rar_files(parent_folder_path)
 
 if rar_folders:
